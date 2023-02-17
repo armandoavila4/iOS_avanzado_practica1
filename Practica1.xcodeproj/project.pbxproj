@@ -14,6 +14,11 @@
 		47CEE7CC299F1FBF00AB93B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47CEE7CB299F1FBF00AB93B0 /* Assets.xcassets */; };
 		47CEE7CF299F1FBF00AB93B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47CEE7CD299F1FBF00AB93B0 /* LaunchScreen.storyboard */; };
 		47CEE7D8299F235D00AB93B0 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 47CEE7D7299F235D00AB93B0 /* Lottie */; };
+		47CEE7DA299F252600AB93B0 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CEE7D9299F252600AB93B0 /* LoaderView.swift */; };
+		47CEE7DD299F259400AB93B0 /* final.png in Resources */ = {isa = PBXBuildFile; fileRef = 47CEE7DB299F259400AB93B0 /* final.png */; };
+		47CEE7DE299F259400AB93B0 /* fish.json in Resources */ = {isa = PBXBuildFile; fileRef = 47CEE7DC299F259400AB93B0 /* fish.json */; };
+		47CEE7E129A00A9C00AB93B0 /* weet-run-cycle.json in Resources */ = {isa = PBXBuildFile; fileRef = 47CEE7DF29A00A9C00AB93B0 /* weet-run-cycle.json */; };
+		47CEE7E229A00A9C00AB93B0 /* surfing-poodle.json in Resources */ = {isa = PBXBuildFile; fileRef = 47CEE7E029A00A9C00AB93B0 /* surfing-poodle.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +30,11 @@
 		47CEE7CB299F1FBF00AB93B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47CEE7CE299F1FBF00AB93B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		47CEE7D0299F1FBF00AB93B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47CEE7D9299F252600AB93B0 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		47CEE7DB299F259400AB93B0 /* final.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = final.png; sourceTree = "<group>"; };
+		47CEE7DC299F259400AB93B0 /* fish.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = fish.json; sourceTree = "<group>"; };
+		47CEE7DF29A00A9C00AB93B0 /* weet-run-cycle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "weet-run-cycle.json"; sourceTree = "<group>"; };
+		47CEE7E029A00A9C00AB93B0 /* surfing-poodle.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "surfing-poodle.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +68,14 @@
 		47CEE7C1299F1FBC00AB93B0 /* Practica1 */ = {
 			isa = PBXGroup;
 			children = (
+				47CEE7DB299F259400AB93B0 /* final.png */,
+				47CEE7E029A00A9C00AB93B0 /* surfing-poodle.json */,
+				47CEE7DF29A00A9C00AB93B0 /* weet-run-cycle.json */,
+				47CEE7DC299F259400AB93B0 /* fish.json */,
 				47CEE7C2299F1FBC00AB93B0 /* AppDelegate.swift */,
 				47CEE7C4299F1FBC00AB93B0 /* SceneDelegate.swift */,
 				47CEE7C6299F1FBC00AB93B0 /* ViewController.swift */,
+				47CEE7D9299F252600AB93B0 /* LoaderView.swift */,
 				47CEE7C8299F1FBC00AB93B0 /* Main.storyboard */,
 				47CEE7CB299F1FBF00AB93B0 /* Assets.xcassets */,
 				47CEE7CD299F1FBF00AB93B0 /* LaunchScreen.storyboard */,
@@ -135,7 +150,11 @@
 			files = (
 				47CEE7CF299F1FBF00AB93B0 /* LaunchScreen.storyboard in Resources */,
 				47CEE7CC299F1FBF00AB93B0 /* Assets.xcassets in Resources */,
+				47CEE7DE299F259400AB93B0 /* fish.json in Resources */,
+				47CEE7DD299F259400AB93B0 /* final.png in Resources */,
+				47CEE7E229A00A9C00AB93B0 /* surfing-poodle.json in Resources */,
 				47CEE7CA299F1FBC00AB93B0 /* Main.storyboard in Resources */,
+				47CEE7E129A00A9C00AB93B0 /* weet-run-cycle.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				47CEE7C7299F1FBC00AB93B0 /* ViewController.swift in Sources */,
+				47CEE7DA299F252600AB93B0 /* LoaderView.swift in Sources */,
 				47CEE7C3299F1FBC00AB93B0 /* AppDelegate.swift in Sources */,
 				47CEE7C5299F1FBC00AB93B0 /* SceneDelegate.swift in Sources */,
 			);
