@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    let segmentedControl = UISegmentedControl (items: ["Anim1","Anim2","Anim3"])
+    let segmentedControl = UISegmentedControl (items: ["Fish","Globo","Perro", "Libro"])
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         //Se agrega el segmented control
         
         segmentedControl.frame = CGRect(x: 10, y: 80, width:self.view.bounds.width - 20, height: 30)
-        segmentedControl.selectedSegmentIndex = UISegmentedControl.noSegment
+        segmentedControl.selectedSegmentIndex = 0
         self.view.addSubview(segmentedControl)
         
         segmentedControl.addTarget(self, action: #selector(sControlClick), for: .valueChanged)
@@ -34,6 +34,8 @@ class ViewController: UIViewController {
                 self.callAnimation(name:"weet-run-cycle", background:.green,  width:Double(300),height: Double(300))
             case 2:
                 self.callAnimation(name:"surfing-poodle", background:.orange,  width:Double(300),height: Double(300))
+            case 3:
+                self.callAnimation(name:"book", background:.gray,  width:Double(300),height: Double(300))
             default:
                 break
             }

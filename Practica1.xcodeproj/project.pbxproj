@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		47663E2429A1B15100176565 /* book.json in Resources */ = {isa = PBXBuildFile; fileRef = 47663E2329A1B15100176565 /* book.json */; };
 		47CEE7C3299F1FBC00AB93B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CEE7C2299F1FBC00AB93B0 /* AppDelegate.swift */; };
 		47CEE7C5299F1FBC00AB93B0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CEE7C4299F1FBC00AB93B0 /* SceneDelegate.swift */; };
 		47CEE7C7299F1FBC00AB93B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47CEE7C6299F1FBC00AB93B0 /* ViewController.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		47663E2329A1B15100176565 /* book.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = book.json; sourceTree = "<group>"; };
 		47CEE7BF299F1FBC00AB93B0 /* Practica1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Practica1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47CEE7C2299F1FBC00AB93B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47CEE7C4299F1FBC00AB93B0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				47CEE7DB299F259400AB93B0 /* final.png */,
 				47CEE7E029A00A9C00AB93B0 /* surfing-poodle.json */,
 				47CEE7DF29A00A9C00AB93B0 /* weet-run-cycle.json */,
+				47663E2329A1B15100176565 /* book.json */,
 				47CEE7DC299F259400AB93B0 /* fish.json */,
 				47CEE7C2299F1FBC00AB93B0 /* AppDelegate.swift */,
 				47CEE7C4299F1FBC00AB93B0 /* SceneDelegate.swift */,
@@ -152,6 +155,7 @@
 				47CEE7CC299F1FBF00AB93B0 /* Assets.xcassets in Resources */,
 				47CEE7DE299F259400AB93B0 /* fish.json in Resources */,
 				47CEE7DD299F259400AB93B0 /* final.png in Resources */,
+				47663E2429A1B15100176565 /* book.json in Resources */,
 				47CEE7E229A00A9C00AB93B0 /* surfing-poodle.json in Resources */,
 				47CEE7CA299F1FBC00AB93B0 /* Main.storyboard in Resources */,
 				47CEE7E129A00A9C00AB93B0 /* weet-run-cycle.json in Resources */,
